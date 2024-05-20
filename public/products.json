@@ -1,82 +1,163 @@
+
 [
   {
     "id": "1",
-    "name": "Уряд України затвердив новий бюджет на 2025 рік",
-    "image": "https://example.com/images/budget.jpg",
-    "price": 0,
-    "category": "Політика",
-    "description": "Кабінет Міністрів України схвалив новий державний бюджет на 2025 рік, який передбачає збільшення витрат на оборону і соціальну сферу."
+    "name": "Wireless Mouse",
+    "image": "/images/products-images/wireless-mouse.jpg",
+    "price": 29.99,
+    "category": "Electronics",
+    "description": "A reliable wireless mouse with long battery life and ergonomic design."
   },
   {
     "id": "2",
-    "name": "Національна збірна з футболу здобула перемогу в матчі з Італією",
-    "image": "https://example.com/images/football.jpg",
-    "price": 0,
-    "category": "Спорт",
-    "description": "Збірна України з футболу виграла матч проти Італії з рахунком 2:1, забезпечивши собі вихід до фіналу Євро-2024."
+    "name": "Bluetooth Headphones",
+    "image": "/images/products-images/bluetooth-headphones.jpg",
+    "price": 59.99,
+    "category": "Electronics",
+    "description": "High-quality Bluetooth headphones with noise cancellation and superior sound."
   },
   {
     "id": "3",
-    "name": "Apple представила новий iPhone 15",
-    "image": "https://example.com/images/iphone15.jpg",
-    "price": 999,
-    "category": "Технології",
-    "description": "Компанія Apple анонсувала свій новий смартфон iPhone 15, який має покращену камеру та потужніший процесор."
+    "name": "Smartwatch",
+    "image": "/images/products-images/smartwatch.jpg",
+    "price": 199.99,
+    "category": "Wearables",
+    "description": "A stylish smartwatch with health tracking and multiple sports modes."
   },
   {
     "id": "4",
-    "name": "Масштабні пожежі на заході США",
-    "image": "https://example.com/images/fires.jpg",
-    "price": 0,
-    "category": "Світ",
-    "description": "На заході США продовжуються великі лісові пожежі, які вже знищили сотні будинків і змусили тисячі людей евакуюватися."
+    "name": "Gaming Keyboard",
+    "image": "/images/products-images/gaming-keyboard.jpg",
+    "price": 89.99,
+    "category": "Electronics",
+    "description": "Mechanical gaming keyboard with customizable RGB lighting and macro keys."
   },
   {
     "id": "5",
-    "name": "В Україні стартував туристичний сезон",
-    "image": "https://example.com/images/tourism.jpg",
-    "price": 0,
-    "category": "Туризм",
-    "description": "Відкриття туристичного сезону в Україні відзначили численні фестивалі та заходи в різних регіонах країни."
+    "name": "LED Monitor",
+    "image": "/images/products-images/led-monitor.jpg",
+    "price": 249.99,
+    "category": "Electronics",
+    "description": "27-inch LED monitor with 4K resolution and ultra-thin bezels."
   },
   {
     "id": "6",
-    "name": "Новий закон про податки набув чинності",
-    "image": "https://example.com/images/taxes.jpg",
-    "price": 0,
-    "category": "Економіка",
-    "description": "В Україні почав діяти новий закон про податки, який передбачає зниження податкового навантаження на малий бізнес."
+    "name": "Wireless Charger",
+    "image": "/images/products-images/wireless-charger.jpg",
+    "price": 39.99,
+    "category": "Accessories",
+    "description": "Fast wireless charger compatible with all Qi-enabled devices."
   },
   {
     "id": "7",
-    "name": "Науковці відкрили новий вид динозавра",
-    "image": "https://example.com/images/dinosaur.jpg",
-    "price": 0,
-    "category": "Наука",
-    "description": "Палеонтологи з США оголосили про відкриття нового виду динозавра, який жив понад 70 мільйонів років тому."
+    "name": "Smartphone",
+    "image": "/images/products-images/smartphone.jpg",
+    "price": 699.99,
+    "category": "Electronics",
+    "description": "Latest model smartphone with high-speed processor and stunning camera."
   },
   {
     "id": "8",
-    "name": "Tesla представила новий електричний вантажівку",
-    "image": "https://example.com/images/tesla.jpg",
-    "price": 150000,
-    "category": "Технології",
-    "description": "Компанія Tesla анонсувала новий електричний вантажівку, який має покращену автономність та потужніший двигун."
+    "name": "Tablet",
+    "image": "/images/products-images/tablet.jpg",
+    "price": 329.99,
+    "category": "Electronics",
+    "description": "Lightweight tablet with a 10-inch display and long battery life."
   },
   {
     "id": "9",
-    "name": "В Україні зросла середня зарплата",
-    "image": "https://example.com/images/salary.jpg",
-    "price": 0,
-    "category": "Економіка",
-    "description": "Згідно з новими даними, середня зарплата в Україні зросла на 10% порівняно з минулим роком."
+    "name": "Fitness Tracker",
+    "image": "/images/products-images/fitness-tracker.jpg",
+    "price": 49.99,
+    "category": "Wearables",
+    "description": "Waterproof fitness tracker with heart rate monitor and sleep tracking."
   },
   {
     "id": "10",
-    "name": "Новий парк відкрився у Києві",
-    "image": "https://example.com/images/park.jpg",
-    "price": 0,
-    "category": "Місто",
-    "description": "У Києві відкрився новий парк, який має велике озеро, дитячі майданчики та зони для пікніків."
+    "name": "Portable Speaker",
+    "image": "/images/products-images/portable-speaker.jpg",
+    "price": 79.99,
+    "category": "Electronics",
+    "description": "Portable Bluetooth speaker with excellent sound quality and long battery life."
+  },
+  {
+    "id": "11",
+    "name": "Action Camera",
+    "image": "/images/products-images/action-camera.jpg",
+    "price": 149.99,
+    "category": "Electronics",
+    "description": "Action camera with 4K video recording and waterproof casing."
+  },
+  {
+    "id": "12",
+    "name": "Drone",
+    "image": "/images/products-images/drone.jpg",
+    "price": 499.99,
+    "category": "Electronics",
+    "description": "High-performance drone with 4K camera and GPS navigation."
+  },
+  {
+    "id": "13",
+    "name": "E-reader",
+    "image": "/images/products-images/e-reader.jpg",
+    "price": 129.99,
+    "category": "Electronics",
+    "description": "Compact e-reader with adjustable backlight and large storage capacity."
+  },
+  {
+    "id": "14",
+    "name": "Laptop",
+    "image": "/images/products-images/laptop.jpg",
+    "price": 999.99,
+    "category": "Electronics",
+    "description": "Powerful laptop with high-speed processor and ample storage."
+  },
+  {
+    "id": "15",
+    "name": "External Hard Drive",
+    "image": "/images/products-images/external-hard-drive.jpg",
+    "price": 79.99,
+    "category": "Accessories",
+    "description": "Portable external hard drive with 2TB storage capacity."
+  },
+  {
+    "id": "16",
+    "name": "VR Headset",
+    "image": "/images/products-images/vr-headset.jpg",
+    "price": 299.99,
+    "category": "Electronics",
+    "description": "Immersive VR headset with high-resolution display and wide field of view."
+  },
+  {
+    "id": "17",
+    "name": "Digital Camera",
+    "image": "/images/products-images/digital-camera.jpg",
+    "price": 549.99,
+    "category": "Electronics",
+    "description": "Digital camera with high-resolution sensor and multiple shooting modes."
+  },
+  {
+    "id": "18",
+    "name": "Smart Home Hub",
+    "image": "/images/products-images/smart-home-hub.jpg",
+    "price": 99.99,
+    "category": "Smart Home",
+    "description": "Smart home hub compatible with a wide range of smart devices."
+  },
+  {
+    "id": "19",
+    "name": "Noise-Cancelling Earbuds",
+    "image": "/images/products-images/noise-cancelling-earbuds.jpg",
+    "price": 129.99,
+    "category": "Electronics",
+    "description": "Wireless noise-cancelling earbuds with superior sound quality."
+  },
+  {
+    "id": "20",
+    "name": "Gaming Console",
+    "image": "/images/products-images/gaming-console.jpg",
+    "price": 499.99,
+    "category": "Electronics",
+    "description": "Next-gen gaming console with powerful hardware and exclusive games."
   }
 ]

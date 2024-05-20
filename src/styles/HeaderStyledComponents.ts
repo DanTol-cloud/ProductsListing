@@ -10,12 +10,26 @@ export const HeaderContainer = styled.header`
   border: 3px solid black;
   border-radius: 0 0 15px 15px;
   padding: 1rem;
+
+  @media (max-width: 1320px) {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
 `;
 
 export const HeaderTitle = styled.h1`
   align-self: center;
   font-size: 36px;
   margin: 0 0.3rem;
+  @media (max-width: 1320px) {
+    font-size: 24px;
+  }
+  @media (max-width: 740px) {
+    display: flex;
+    flex: 0 1 0;
+    font-size: 16px;
+  }
 `;
 
 export const SearchBarContainer = styled.div`
@@ -25,9 +39,18 @@ export const SearchBarContainer = styled.div`
   border-radius: 30px;
   background-color: #ffff;
   margin: 1.5rem 0.3rem 1.5rem 0.3rem;
+  @media (max-width: 1320px) {
+    flex: 0 0 auto;
+    height: 1rem;
+    margin: 1rem 0.1rem 1rem 0.1rem;
+  }
+
+  @media (max-width: 910px) {
+    width: 15%;
+  }
 `;
 
-export const SearchBar = styled.input`
+export const SearchBarInput = styled.input`
   display: flex;
   border: none;
   flex: 1;
@@ -40,6 +63,10 @@ export const SearchBar = styled.input`
   border-radius: 30px;
   margin: 0 1rem 0 1rem;
   outline: none;
+
+  @media (max-width: 910px) {
+    font-size: 10px;
+  }
 `;
 
 export const ButtonsContainer = styled.div`
@@ -48,16 +75,29 @@ export const ButtonsContainer = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-  padding: 0;
+  @media (max-width: 1320px) {
+    flex: 0 0 auto;
+    padding: 0;
+  }
+
+  @media (max-width: 910px) {
+    width: 15%;
+  }
 `;
 
-export const SortButton = styled.button<{ active: boolean }>`
-  background-color: ${({ active }) => (active ? '#32B0A4' : '#3278a4')};
+export const SortButton = styled.button<{ activeColor: boolean }>`
+  background-color: ${({ activeColor }) =>
+    activeColor ? '#32B0A4' : '#3278a4'};
   border: 2px solid black;
   border-radius: 30px;
   background-image: none;
   cursor: pointer;
   font-size: 18px;
+
+  @media (max-width: 1320px) {
+    font-size: 12px;
+    margin: 0.5rem 0;
+  }
 `;
 
 export const SelectContainer = styled.div`
@@ -85,6 +125,38 @@ export const SelectContainer = styled.div`
     pointer-events: none;
     border-radius: 0 14px 14px 0;
     font-size: 24px;
+
+    @media (max-width: 1320px) {
+      font-size: 12px;
+      bottom: 30px;
+    }
+
+    @media (max-width: 955px) {
+      display: none;
+    }
+
+    @media (max-width: 740px) {
+      display: flex;
+      left: 20px;
+      bottom: 25px;
+    }
+  }
+
+  @media (max-width: 955px) {
+    flex: 1 1 auto;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    width: 10%;
+  }
+
+  @media (max-width: 910px) {
+    flex: 0 0 auto;
+    padding: 0 1rem;
+  }
+
+  @media (max-width: 740px) {
+    width: 5%;
   }
 
   /* Transition */
@@ -108,6 +180,22 @@ export const CategorySelect = styled.select`
   cursor: pointer;
   padding: 0 1rem;
   font-size: 18px;
+
+  @media (max-width: 1320px) {
+    font-size: 12px;
+    height: 1.5rem;
+  }
+
+  @media (max-width: 955px) {
+    flex: 0;
+    align-items: center;
+    justify-content: center;
+  }
+
+  @media (max-width: 740px) {
+    width: 10%;
+    font-size: 10px;
+  }
 `;
 
 export const CategoryToChose = styled.option`
@@ -124,6 +212,18 @@ export const PriceRangeContainer = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+
+  @media (max-width: 1320px) {
+    justify-content: center;
+  }
+  @media (max-width: 955px) {
+    justify-content: center;
+    align-items: center;
+  }
+
+  @media (max-width: 910px) {
+    flex: 0 0 auto;
+  }
 `;
 
 export const PriceRangeLabel = styled.label`
@@ -135,6 +235,18 @@ export const PriceRangeLabel = styled.label`
   font-optical-sizing: auto;
   font-style: normal;
   font-size: 18px;
+
+  @media (max-width: 1320px) {
+    margin: 0.5rem 0;
+  }
+  @media (max-width: 1010px) {
+    flex: 0 0 auto;
+    font-size: 14px;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
 `;
 
 export const PriceRangeInput = styled.input`
@@ -154,5 +266,15 @@ export const PriceRangeInput = styled.input`
   &::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0;
+  }
+
+  @media (max-width: 1010px) {
+    padding: 0;
+    margin: 0 10px;
+    text-align: center;
+  }
+
+  @media (max-width: 955px) {
+    margin-right: 5px;
   }
 `;
